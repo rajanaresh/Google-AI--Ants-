@@ -32,6 +32,7 @@
 	    ((search "player_seed" buf) (setf player-seed (parse-integer buf :start 12))))
 	    (print buf)))
 
+
 ;;Reading the game input on each turn
 ;;===================================
 
